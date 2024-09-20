@@ -49,7 +49,7 @@ This Django-based REST API provides functionality for uploading and processing C
    ```
    celery -A csv_api worker -l info -P gevent
 
-   if above command does'n work
+   if above command doesn't work
 
    run 
 
