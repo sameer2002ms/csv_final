@@ -70,25 +70,24 @@ JSON format to send the data
 
 for dedup
 
-<!-- {
    "file_id" : "2",
    "operation: : "dedup"
    "n" : Value
 }
- -->
+
 
  for unique
 
- <!-- {
+{
    "file_id" : "2",
    "operation: : "dedup",
    "column" : "column_name,
    "n" : value
-} -->
+}
 
 for filter
 
-<!-- {
+{
     "file_id" : "3",
     "operation": "filter",
     "column": "name",
@@ -96,5 +95,5 @@ for filter
         "Website":"http://www.shea.biz/"
     }
     "n" : value
-} -->
+}
 
