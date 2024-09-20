@@ -68,25 +68,25 @@ The API will be available at `http://localhost:8000/`.
 
 JSON format to send the data 
 
-for dedup
-
+1. For dedup
+```
    "file_id" : "2",
    "operation: : "dedup"
    "n" : Value
 }
+```
 
-
- for unique
-
+2. For unique
+```
 {
    "file_id" : "2",
    "operation: : "dedup",
    "column" : "column_name,
    "n" : value
 }
-
-for filter
-
+```
+3. For filter
+```
 {
     "file_id" : "3",
     "operation": "filter",
@@ -96,4 +96,4 @@ for filter
     }
     "n" : value
 }
-
+```
