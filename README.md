@@ -71,7 +71,7 @@ JSON format to send the data
 for dedup
 
 <!-- {
-   "file_name" : "2",
+   "file_id" : "2",
    "operation: : "dedup"
    "n" : Value
 }
@@ -80,7 +80,7 @@ for dedup
  for unique
 
  <!-- {
-   "file_name" : "2",
+   "file_id" : "2",
    "operation: : "dedup",
    "column" : "column_name,
    "n" : value
